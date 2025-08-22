@@ -18,9 +18,9 @@ git clone https://github.com/crazycacti/torbox-app.git
 cd torbox-app
 ```
 
-2. Build and start the application:
+2. Start the application:
 ```bash
-docker compose up -d --build
+docker compose up -d
 ```
 
 3. Open [http://localhost:3000](http://localhost:3000) and enter your TorBox API key to begin.
@@ -68,35 +68,9 @@ yarn dev
 - React Hooks
 - Server Components
 
-## Docker
-
-The application includes Docker support for easy deployment:
-
-### Quick Start
-```bash
-docker compose up -d --build
-```
-
-### Useful Commands
-```bash
-# View logs
-docker compose logs -f torbox-app
-
-# Stop the application
-docker compose down
-
-# Restart the application
-docker compose restart
-
-# Update and rebuild
-docker compose pull && docker compose up -d --build
-```
-
 ### Configuration
 - **Port**: 3000 (accessible at http://localhost:3000)
 - **Health Check**: Available at `/api/health`
-- **Logs**: Mounted to `./logs` directory
-- **Data**: Mounted to `./data` directory (for persistence)
 
 ## Development
 

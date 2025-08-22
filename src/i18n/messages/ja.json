@@ -115,7 +115,8 @@
     "copyLink": "リンクをコピー",
     "copyAll": "すべてコピー",
     "copied": "コピーしました！",
-    "visitLink": "リンクを訪問"
+    "visitLink": "リンクを訪問",
+    "developerNote": "これらは開発者の紹介コードです"
   },
   "SearchBar": {
     "placeholder": "タイトルまたはIMDB ID (e.g. imdb:tt0133093) で検索...",
@@ -686,6 +687,9 @@
       "reloadPage": "ページを再読み込み"
     },
     "retry": "再試行",
-    "noData": "データがありません"
+    "noData": "データがありません",
+    "referralLink": "紹介リンク",
+    "copyLink": "リンクをコピー",
+    "copyLinkFailed": "リンクのコピーに失敗しました"
   }
 }
