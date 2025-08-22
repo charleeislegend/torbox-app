@@ -63,8 +63,9 @@
       "link": "torbox.app/settings"
     },
     "footer": {
-      "description": "Wir speichern keine Ihrer Informationen. Diese App ist vollständig Open Source auf ",
-      "github": "GitHub"
+      "description": "Wir speichern keine Ihrer Informationen. Diese App ist vollständig Open Source auf",
+      "github": "GitHub",
+      "forkNote": "Dies ist ein Fork von jittaraos TorBox Manager"
     }
   },
   "ApiKeyInput": {
@@ -580,6 +581,7 @@
     "itemCount": "Elemente",
     "actions": "Aktionen",
     "noFeeds": "Keine RSS-Feeds konfiguriert",
+    "never": "Nie",
     "loading": "RSS-Feeds werden geladen...",
     "error": "Fehler beim Laden der RSS-Feeds",
     "addSuccess": "RSS-Feed erfolgreich hinzugefügt",
