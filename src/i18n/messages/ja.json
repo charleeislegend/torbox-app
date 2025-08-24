@@ -226,6 +226,14 @@
     "status": {
       "processing": "{count} of {total} items processed",
       "clearItems": "アイテムをクリア"
+    },
+    "help": {
+      "nzbTips": "NZBアップロードのヒント",
+      "validLinks": "NZBリンクが有効でアクセス可能であることを確認してください",
+      "checkApiKey": "APIキーが正しく、十分な権限があることを確認してください",
+      "serverErrors": "サーバーエラーが表示される場合は、数分待ってから再試行してください",
+      "downloadSlots": "アカウントに利用可能なダウンロードスロットがあることを確認してください",
+      "uploadLimit": "サーバーエラーを避けるため、一度に10個以上のNZBファイルをアップロードしないでください"
     }
   },
   "SpeedChart": {
@@ -354,6 +362,7 @@
     "updated_at": "最終更新日",
     "download_state": "状態",
     "progress": "進行状況",
+    "download_progress": "進捗",
     "ratio": "比率",
     "file_count": "ファイル数",
     "download_speed": "ダウンロード速度",
