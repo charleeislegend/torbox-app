@@ -180,23 +180,27 @@ export default function LandingPage({ onKeyChange }) {
             </p>
             <p className="mt-4 pt-4 border-t border-zinc-800/60 text-xs text-zinc-600 text-center leading-relaxed">
               {t('forkNoticeLine')}{' '}
-              <a
-                href={FORK_GITHUB_REPO_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-amber-400/90 hover:text-amber-400 underline underline-offset-2 transition-colors"
-              >
-                {t('forkNoticeThisFork')}
-              </a>
-              {' · '}
-              <a
-                href={UPSTREAM_GITHUB_REPO_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-amber-400/90 hover:text-amber-400 underline underline-offset-2 transition-colors"
-              >
-                {t('forkNoticeUpstream')}
-              </a>
+              <span className="inline-flex flex-wrap items-center justify-center gap-x-2 gap-y-1">
+                <a
+                  href={FORK_GITHUB_REPO_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-amber-400/90 hover:text-amber-400 underline underline-offset-2 transition-colors"
+                >
+                  {t('forkNoticeThisFork')}
+                </a>
+                <span className="text-zinc-700 select-none" aria-hidden>
+                  |
+                </span>
+                <a
+                  href={UPSTREAM_GITHUB_REPO_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-amber-400/90 hover:text-amber-400 underline underline-offset-2 transition-colors"
+                >
+                  {t('forkNoticeUpstream')}
+                </a>
+              </span>
             </p>
           </div>
         </section>
